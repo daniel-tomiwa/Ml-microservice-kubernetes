@@ -47,4 +47,4 @@ source .devops/bin/activate
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
-* Run via kubectl
+* Run via kubectl command
