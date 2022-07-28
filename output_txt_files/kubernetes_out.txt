@@ -1,21 +1,21 @@
 error: failed to create deployment: deployments.apps "ml-microservice2" already exists
 NAME                               READY   UP-TO-DATE   AVAILABLE   AGE
-deployment.apps/ml-microservice    0/1     1            0           62m
-deployment.apps/ml-microservice2   1/1     1            1           20m
+deployment.apps/ml-microservice2   1/1     1            1           108s
 
 NAME                                          DESIRED   CURRENT   READY   AGE
-replicaset.apps/ml-microservice-7ddd446f78    1         1         0       62m
-replicaset.apps/ml-microservice2-6648c5dc8f   1         1         1       20m
+replicaset.apps/ml-microservice2-5bcc5b44cf   1         1         1       108s
 
 NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
-service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   52d
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   3m45s
 
-NAME                                    READY   STATUS         RESTARTS   AGE
-pod/ml-microservice-7ddd446f78-zd9ls    0/1     ErrImagePull   0          62s
-pod/ml-microservice2-6648c5dc8f-qd9z8   1/1     Running        0          20m
+NAME                                    READY   STATUS    RESTARTS   AGE
+pod/ml-microservice2-5bcc5b44cf-gxgjt   1/1     Running   0          108s
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
-Handling connection for 8000
-Handling connection for 8000
-Handling connection for 8000
-Handling connection for 8000
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}

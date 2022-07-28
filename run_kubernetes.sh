@@ -16,4 +16,4 @@ kubectl get deploy,rs,svc,pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/ml-microservice-659d8c998c-b4pq5 --address 0.0.0.0 8000:80
+kubectl port-forward pod/ml-microservice2-5bcc5b44cf-gxgjt --address 0.0.0.0 8000:80
